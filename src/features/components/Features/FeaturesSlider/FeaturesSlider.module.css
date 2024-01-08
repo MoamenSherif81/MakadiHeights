@@ -1,0 +1,5 @@
+.slider__img {
+  pointer-events: none;
+  height: 700px;
+  background-size: cover;
+}
