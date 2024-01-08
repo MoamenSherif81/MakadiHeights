@@ -1,0 +1,4 @@
+.weather__icon{
+  width: 40px;
+  filter: invert(1);
+}

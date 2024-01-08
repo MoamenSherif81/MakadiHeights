@@ -1,0 +1,12 @@
+.features__button{
+  cursor: pointer;
+}
+.features__button:nth-child(odd){
+  border-right: 1px dashed #ccc;
+}
+
+@media (max-width: 768px){
+  .features__button:nth-child(odd){
+    border-right: none;
+  }
+}

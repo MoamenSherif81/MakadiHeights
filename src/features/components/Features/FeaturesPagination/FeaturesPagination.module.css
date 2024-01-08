@@ -1,0 +1,10 @@
+.pagination__item{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(196, 196, 196, .4);
+  cursor: pointer;
+}
+.pagination__item--active{
+  background-color: rgba(196, 196, 196);
+}

@@ -1,0 +1,9 @@
+.navbar {
+  padding: 40px 0;
+}
+
+@media (max-width: 768px){
+  .nav__logo {
+    width: 100px;
+  }
+}

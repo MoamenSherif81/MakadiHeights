@@ -1,0 +1,24 @@
+.input__group {
+  margin-bottom: 50px;
+}
+
+.form__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #cacaca;
+  width: 100%;
+  padding: 0 0 15px;
+  outline: none;
+  font-family: "SharpSansNo1-Medium";
+  margin-bottom: 5px;
+}
+
+.form__input::placeholder, .form__select__placeholder {
+  color: var(--primary);
+  font-style: italic;
+}
+
+.form__error{
+  margin-top: 10px;
+  color: red;
+}

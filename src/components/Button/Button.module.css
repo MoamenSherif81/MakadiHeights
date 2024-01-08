@@ -1,0 +1,14 @@
+.button {
+  font-family: 'Shanti', sans-serif;
+  background-color: white;
+  border: 0;
+  padding: 15px 30px;
+  color: black;
+  font-size: 0.87rem;
+  text-transform: uppercase;
+}
+
+.button--secondary{
+  color: white;
+  background-color: var(--primary);
+}
