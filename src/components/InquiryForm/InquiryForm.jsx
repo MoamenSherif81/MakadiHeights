@@ -31,7 +31,7 @@ export default function InquiryForm() {
             agreement: "",
           }}
           validationSchema={inquiryFormSchema}
-          onSubmit={(values) => setIsOpen(values)}
+          onSubmit={(values, {resetForm}) => {setIsOpen(values); resetForm();}}
         >
           {({ values }) => {
             return (
